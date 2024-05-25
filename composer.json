@@ -1,0 +1,30 @@
+{
+    "name": "mberecall/kropify-codeigniter",
+    "description": "Images Cropping Library for Codeigniter",
+    "homepage": "https://github.com/mberecall/kropify-codeigniter",
+    "type": "library",
+    "keywords": [
+        "codeigniter4",
+        "codeigniter",
+        "crop",
+        "cropper",
+        "ci4",
+        "kropify"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "MB'DUSENGE Callixte (mberecall)",
+        "homepage": "https://github.com/mberecall"
+    }],
+    "require": {
+        "php": "^7.2 || ^8.0"
+    },
+    "autoload": {     
+        "psr-4": {
+            "Mberecall\\CodeIgniter\\Library\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    }
+}
