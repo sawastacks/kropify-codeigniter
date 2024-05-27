@@ -9,7 +9,7 @@
  * MIT license: https://github.com/mberecall/kropify-codeigniter/blob/master/LICENSE
  */
 
-namespace Mberecall\Codeigniter\Library;
+namespace Mberecall\CodeIgniter\Library;
 
 use PHPUnit\Framework\Constraint\Exception;
 
