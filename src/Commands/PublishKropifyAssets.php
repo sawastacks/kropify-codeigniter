@@ -59,7 +59,7 @@ class PublishKropifyAssets extends BaseCommand
         $path_public = FCPATH; //C:\Users\Administrator\Desktop\project-root\public\
         $path_vendor = VENDORPATH; //C:\Users\Administrator\Desktop\project-root\vendor\
         try {
-            directory_mirror($path_vendor.'mberecall/ci-kropify/src/Assets',$path_public.'vendors/mberecall/kropify/');
+            directory_mirror($path_vendor.'mberecall/kropify-codeigniter/src/Assets',$path_public.'vendors/mberecall/kropify/');
             CLI::write('Kropify assets have been published.', 'blue');
         } catch (\Throwable $th) {
             //throw $th;
