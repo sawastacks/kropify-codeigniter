@@ -1,6 +1,6 @@
 <?php
 
-namespace Mberecall\Codeigniter\Library\Commands;
+namespace Mberecall\CodeIgniter\Library\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
 use CodeIgniter\CLI\CLI;
