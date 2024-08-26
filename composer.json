@@ -1,7 +1,7 @@
 {
-    "name": "mberecall/kropify-codeigniter",
+    "name": "sawastacks/kropify-codeigniter",
     "description": "Images Cropping Library for Codeigniter",
-    "homepage": "https://github.com/mberecall/kropify-codeigniter",
+    "homepage": "https://github.com/sawastacks/kropify-codeigniter",
     "type": "library",
     "keywords": [
         "codeigniter4",
@@ -13,15 +13,15 @@
     ],
     "license": "MIT",
     "authors": [{
-        "name": "MB'DUSENGE Callixte (mberecall)",
-        "homepage": "https://github.com/mberecall"
+        "name": "Sawa Stacks (sawastacks)",
+        "homepage": "https://github.com/sawastacks"
     }],
     "require": {
         "php": "^7.2 || ^8.0"
     },
     "autoload": {     
         "psr-4": {
-            "Mberecall\\CodeIgniter\\Library\\": "src/"
+            "SawaStacks\\CodeIgniter\\": "src/"
         },
         "files": [
             "src/Helpers/helpers.php"

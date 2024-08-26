@@ -1,6 +1,6 @@
 <?php
 
-namespace Mberecall\CodeIgniter\Library\Commands;
+namespace SawaStacks\CodeIgniter\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
 use CodeIgniter\CLI\CLI;
@@ -56,10 +56,10 @@ class PublishKropifyAssets extends BaseCommand
      */
     public function run(array $params)
     {
-        $path_public = FCPATH; //C:\Users\Administrator\Desktop\project-root\public\
-        $path_vendor = VENDORPATH; //C:\Users\Administrator\Desktop\project-root\vendor\
+        $path_public = FCPATH; // C:\Users\Administrator\Desktop\project-root\public\
+        $path_vendor = VENDORPATH; // C:\Users\Administrator\Desktop\project-root\vendor\
         try {
-            directory_mirror($path_vendor.'mberecall/kropify-codeigniter/src/Assets',$path_public.'vendors/mberecall/kropify/');
+            directory_mirror($path_vendor.'sawastacks/kropify-codeigniter/src/Assets',$path_public.'vendors/sawastacks/kropify/');
             CLI::write('Kropify assets have been published.', 'blue');
         } catch (\Throwable $th) {
             //throw $th;

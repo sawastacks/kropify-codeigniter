@@ -3,13 +3,13 @@
 /**
  * Copyright (c) 2024 - present
  * Kropify - Kropify.php
- * Author: MB'DUSENGE Callixte - mberecall@gmail.com
- * GitHub : github.com/mberecall
+ * Author: Sawa Stacks - sawastacks@gmail.com
+ * GitHub : github.com/sawastacks
  * Initial version created on: 22/05/2024
- * MIT license: https://github.com/mberecall/kropify-codeigniter/blob/master/LICENSE
+ * MIT license: https://github.com/sawastacks/kropify-codeigniter/blob/master/LICENSE
  */
 
-namespace Mberecall\CodeIgniter\Library;
+namespace SawaStacks\CodeIgniter;
 
 use PHPUnit\Framework\Constraint\Exception;
 
@@ -66,7 +66,7 @@ class Kropify
     * 
     * @param string $file
     * @param string $filename
-    * @return Mberecall\CodeIgniter\Library\Kropify
+    * @return SawaStacks\CodeIgniter\Kropify
     */ 
     public static function getFile($file, $filename = null)
     {
@@ -77,7 +77,7 @@ class Kropify
 
     /**
     * @param int $max
-    * @return Mberecall\CodeIgniter\Library\Kropify
+    * @return SawaStacks\CodeIgniter\Kropify
     */
     public static function maxWoH($max = 500)
     {

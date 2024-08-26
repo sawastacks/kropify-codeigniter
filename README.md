@@ -6,7 +6,7 @@
 
 <p align="center">
 
-![GitHub release](https://img.shields.io/github/v/release/mberecall/kropify-codeigniter) <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mberecall/kropify-codeigniter"> [![Total Downloads](https://poser.pugx.org/mberecall/kropify-codeigniter/downloads)](https://packagist.org/packages/mberecall/kropify-codeigniter) [![Package License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE) <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/mberecall/kropify-codeigniter?style=social">
+![GitHub release](https://img.shields.io/github/v/release/sawastacks/kropify-codeigniter) <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/sawastacks/kropify-codeigniter"> [![Total Downloads](https://poser.pugx.org/sawastacks/kropify-codeigniter/downloads)](https://packagist.org/packages/sawastacks/kropify-codeigniter) [![Package License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE) <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/sawastacks/kropify-codeigniter?style=social">
 
 
 
@@ -14,12 +14,12 @@
 
  # Kropify
 
-**Irebe Library** brought you easy cropping image tool for user profile picture, cover image, etc... that can be integrated into Codeigniter project.
+**Sawa Stacks** brought you easy cropping image tool for user profile picture, cover image, etc... that can be integrated into Codeigniter project.
 
 > **NOTE:** **`Kropify`** cannot be integrated into CodeIgniter framework only. It has another php version that can be integrated into Laravel Framework and Core PHP projects.  
 
  <p align="centerx">  
- <a href="https://www.buymeacoffee.com/mberecall" target="_blank">
+ <a href="https://www.buymeacoffee.com/sawastacks" target="_blank">
    <img src="img/bmc.png" alt="drawing" style="width:200px;"/>
  </a>
 </p>
@@ -43,7 +43,7 @@ Just run the following command in your cmd or terminal:
 1. Install the package via Composer:
 
     ```bash
-     composer require mberecall/kropify-codeigniter
+     composer require sawastacks/kropify-codeigniter
     ```
  
 2. After **Kropify** package installed, you need to publish its css and js minified files in CodeIgniter public folder by running the following command in terminal:
@@ -58,7 +58,7 @@ Just run the following command in your cmd or terminal:
 When new **Kropify** version released and try to update the current package to the latest version, you will need to use `composer update` command:
 
 ```bash
- composer update mberecall/kropify-codeigniter
+ composer update sawastacks/kropify-codeigniter
 ```
 
 After Kropify package updated, you need also to update its assets (**css** and **js** minified files) by running the following command in terminal:
@@ -189,7 +189,7 @@ This callback has two arguments, `error` and `text`
 To include **Kropify** class in controller is very simple. Just import the following lines on your controller.
 
 ```php
- use Mberecall\CodeIgniter\Library\Kropify;
+ use SawaStacks\CodeIgniter\Kropify;
 ```
 
 
@@ -282,8 +282,6 @@ This package still in development, that is why you can not make two instances of
 
 ## Copyright and License
 
-[kropify-codeigniter](https://github.com/mberecall/kropify-codeigniter)
-was written by [MB'DUSENGE Callixte (mberecall)](https://github.com/mberecall) and is released under the 
-[MIT License](https://github.com/mberecall/kropify-codeigniter/blob/master/LICENSE).
+This was written by [Sawa Stacks (sawastacks)](https://github.com/sawastacks) and is released under the [MIT License](https://github.com/sawastacks/kropify-codeigniter/blob/master/LICENSE).
 
-Copyright (c) 2024 - Irebe Library
+Copyright (c) 2024 - Sawa Stacks
