@@ -167,7 +167,7 @@ When you want to initiate **Kropify** on that particular input file, you will us
 | `resetButtonText` | Reset| You can change this button text with your need and according to your language.|
 |`cropButtonText`| Crop | You can change this button text with your need and according to your language. |
 |`maxSize`| 2097152 | By default, this value set to the maximum size of **2MB** .But, you can set your own maximum size of selected  image. |
-|`processURL`|-|This option is very required. You must define your url of croping selected image. eg: **_processURL : "/crop"_** or **_processURL : `<?= route_to("crop") ?>`_**|
+|`processURL`|-|This option is very required. You must define your url of croping selected image. eg: **_processURL : "/crop"_** or **_processURL : "`<?= route_to("crop") ?>`"_**|
 |`showLoader`|true|If you want to display loading element when user croping the selected image, you can set this option to _**true**_. But if you do not want that loading element appears on page, set this option to _**false**_.|
 |`animationClass`|pulse|If you want to animate cropping area, you may use this option by choosing one of three animation classes allowed `pulse`,`headShake`,`fadeIn` and `pulse`. By default, this value set to `pulse` class.|
 
