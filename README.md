@@ -109,12 +109,15 @@ Suppose that you have an input file on your form for user profile picture:
        body{ font-family: serif;  width: 100%; height: 100%; }
        .box{ display: flex;justify-content: center;align-items: center;flex-direction: column; margin-top: 20px; }
         .previewElement{ display: block;width: 120px;height: 120px;background: #ddd; }
+        .previewElement img{ width: 100%; height:auto; }
     </style>
 </head>
 <body>
   <div class="box">
     <h4>Kropify for Laravel</h4>
-    <div class="previewElement"></div>
+    <div class="previewElement">
+       <img src="" alt="" class="preview" data-kropify-default="...addCurrentImagePathIfExists.png">
+    </div>
       <div class="file-box">
         <label>User profile</label>
         <input type="file" id="avatar" name="avatar">
@@ -138,7 +141,7 @@ When you want to initiate **Kropify** on that particular input file, you will us
 ```javascript
   <script>
     $('input#avatar').kropify({
-        preview:'.previewElement',
+        preview:'.preview',
         viewMode:1,
         aspectRatio:1,
         cancelButtonText:'Cancel',
@@ -162,7 +165,7 @@ When you want to initiate **Kropify** on that particular input file, you will us
 |-------------  | :-------------: | ---------- |
 | `viewMode` | 1 | You can set this value to (1,2 or 3). But you can not add this option if you are happy with the default value which is 1. |
 | `aspectRatio` | 1 | You can add your custom cropped image ratio. You can use fractional numbers and float numbers. **eg**: `16/4`, `10/32`, `0.25`, `2.25`, etc... Default value is 1. |
-|`preview` | **required** | This option is very required option. This is where you define the output element to preview the cropped image. Here, you must use jquery selector to select **id=""** or **class=""** of the element. We recommended to use `<span>` or `<div>` tags.|
+|`preview` | **required** | This option is very required option. This is where you define the output element to preview the cropped image. Here, you must use jquery selector to select **id=""** or **class=""** of the img tag element where you want to display cropped image result.|
 |`cancelButtonText` | Cancel | You can change this button text with your need and according to your language. |
 | `resetButtonText` | Reset| You can change this button text with your need and according to your language.|
 |`cropButtonText`| Crop | You can change this button text with your need and according to your language. |
