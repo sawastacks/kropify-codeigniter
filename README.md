@@ -114,7 +114,7 @@ Suppose that you have an input file on your form for user profile picture:
 </head>
 <body>
   <div class="box">
-    <h4>Kropify for Laravel</h4>
+    <h4>Kropify for CodeIgniter</h4>
     <div class="previewElement">
        <img src="" alt="" class="preview" data-kropify-default="...addCurrentImagePathIfExists.png">
     </div>
